@@ -42,7 +42,14 @@ p {
     min-height: 1px;
     margin: 0 2% 20px;
 }
-
+@media (min-width: 667px) {
+    .container {
+        width: 90%;
+    }
+    .one-half {
+        width:46%;
+    }
+}
 @media (min-width: 768px) {
     .container {
         width: 750px;
@@ -122,6 +129,11 @@ header .hero p {
 header .hero img {
     display:block;
     margin:3em auto 0;
+}
+@media (min-width: 667px) {
+    header .hero img {
+        width:96%;
+    }
 }
 
 /* BUTTONS */
@@ -354,5 +366,16 @@ footer .logo {
     }
     footer .logo {
         padding: 2em 0 2em 1.5em;
+    }
+}
+@media (min-width: 667px) {
+    footer {
+        height: 225px;
+    }
+    footer p {
+        padding: 1em 0 0;
+    }
+    footer nav ul {
+        padding: 0;
     }
 }

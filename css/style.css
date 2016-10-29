@@ -533,6 +533,10 @@ footer .logo {
     margin-right: 10px;
     margin-top:8px;
 }
+.left-nav .settings .account-menu {
+    position:relative;
+    bottom:15px;
+}
 
 /* CONTENT */
 .content {
